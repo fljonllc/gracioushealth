@@ -1,0 +1,49 @@
+.about-img img {
+    border-radius: 0 92px;
+}
+
+.rounded-circle {
+    background-color: #0E5052;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rotate-180 {
+    transform: rotate(180deg) !important;
+}
+
+.feedback-user-image img {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    border: 3px solid #0E5052;
+}
+
+.header-section-services-practice {
+    height: 500px;
+    width: 100%;
+    /* fallback for old browsers */
+    background: linear-gradient(rgb(14, 80, 82, 0.8), rgb(6, 23, 0, 0.8)), url("/public/assets/our-services.jpg");
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(14, 80, 82, 0.8), rgb(6, 23, 0, 0.8)), url("/public/assets/our-services.jpg");
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-section-contact {
+    height: 500px;
+    width: 100%;
+    /* fallback for old browsers */
+    background: linear-gradient(rgb(14, 80, 82, 0.8), rgb(6, 23, 0, 0.8)), url("/public/assets/contact.jpg");
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(14, 80, 82, 0.8), rgb(6, 23, 0, 0.8)), url("/public/assets/contact.jpg");
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
